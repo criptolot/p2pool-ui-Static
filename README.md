@@ -1,9 +1,8 @@
-p2pool-ui-punchy
+p2pool-ui-static
 ==================
 
 Another alternative p2pool UI.
 Makes use of Bootstrap, jQuery and Highcharts.
-Compatible with [Standard p2pool](https://github.com/forrestv/p2pool) and [Extended p2pool](https://github.com/mmouse-/p2pool-vtc) (and any forks that pull these extensions)
 
 Features:
 - Important information at the top of the page
@@ -30,7 +29,7 @@ See Screenshots:
 To run this UI in parallel to your current p2pool web interface, do in your web-static directory:
 
 ``` Bash
-git clone https://github.com/justino/p2pool-ui-punchy.git
+git clone https://github.com/criptolot/p2pool-ui-Static.git
 ```
 
 ### As web-static replacement
@@ -39,8 +38,8 @@ To replace your current web-static, in the top directory of your p2pool installa
 
 ``` Bash
 mv web-static web-static-original
-git clone https://github.com/justino/p2pool-ui-punchy.git
-ln -s p2pool-ui-punchy web-static
+git clone https://github.com/criptolot/p2pool-ui-Static.git
+ln -s p2pool-ui-Static web-static
 ```
 
 ## Setup
@@ -51,7 +50,7 @@ Copy the example config `config.example.js` to `config.js` and modify to fit you
 See the `Configuration` section below for option descriptions.
 
 Once this is setup, you'll be able to access the UI either by:
-`http://<url-to-your-p2pool>:<port>/static/p2pool-ui-punchy/` if you chose to do a parallel installation
+`http://<url-to-your-p2pool>:<port>/static/p2pool-ui-Static/` if you chose to do a parallel installation
 or
 `http://<url-to-your-p2pool>:<port>/static` is you chose to do a replacement installation
 
